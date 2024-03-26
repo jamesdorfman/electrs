@@ -9,7 +9,7 @@ use std::collections::HashSet;
 use std::process;
 use std::sync::{Arc, RwLock};
 use std::time::{Duration, Instant};
-use bitcoin::Txid;
+use electrs::chain::Txid;
 use serde_json::json;
 
 use electrs::{
